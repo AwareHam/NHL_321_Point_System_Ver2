@@ -7,7 +7,7 @@ import numpy as np
 import pandas as pd
 
 
-url = 'https://www.hockey-reference.com/leagues/NHL_2019_standings.html'
+url = 'https://www.hockey-reference.com/leagues/NHL_2024_standings.html'
 soup = BeautifulSoup(urlopen(url), "html.parser")
 
 
